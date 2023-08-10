@@ -1,0 +1,365 @@
+[
+  {
+    "ref": "a98937b5-76bf-49be-abd0-878939f8eb36",
+    "keyword": "cd33c5a360e77cb5e032e9d8d605e0d3",
+    "answer": "hola",
+    "options": {},
+    "from": "5215519186107",
+    "refSerialize": "79e7fc16f7fb85373fd25a99390f44c0"
+  },
+  {
+    "ref": "ans_2ed932b8-fd79-4123-afa1-1335fbe0b3f4",
+    "keyword": "key_0d6bd145-e444-41da-a766-356db66d55e2",
+    "answer": "*Bienvenid@*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "0293e3a27c49eae48f06962f16e98d21",
+    "from": "5215519186107"
+  },
+  {
+    "ref": "ans_d62932d0-8220-4a64-818b-fc0ab27d2e7f",
+    "keyword": "ans_2ed932b8-fd79-4123-afa1-1335fbe0b3f4",
+    "answer": "Te muestro los servicios disponibles:\n*Cursos:* conoce nuestra cartera completa\n*Consultoría:* te ayudamos en cualquier tema que tengas\n*Otro:* buscas algo más especifico?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_3d530b40-35d9-4ec1-b1d7-6d43f927bb5f",
+          "keyword": [
+            "curso",
+            "cursos",
+            "interesa"
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "f57b57cd0e09883b74229226dc289bf8"
+        },
+        {
+          "ref": "ans_dd1b01c5-8b33-4c9e-936b-c3310fb0dc52",
+          "keyword": "key_3d530b40-35d9-4ec1-b1d7-6d43f927bb5f",
+          "answer": "Te comparto el link con la cartera de cursos disponibles",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "ba7265e69044a9c70e28ec30b6d16ef1"
+        },
+        {
+          "ref": "ans_b9a3a107-3986-4469-9324-a7fe06f3a0cb",
+          "keyword": "ans_dd1b01c5-8b33-4c9e-936b-c3310fb0dc52",
+          "answer": "🙌 https://wa.me/c/5215537700574",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [
+              {
+                "ref": "key_6d747a32-eea6-4040-84a5-75a18726e58f",
+                "keyword": [
+                  null
+                ],
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "b62baef8f920b5d3308a61b673c8ac83"
+              },
+              {
+                "ref": "ans_ad657bc4-c3b6-4ef3-b9e9-8b74ce7af634",
+                "keyword": "key_6d747a32-eea6-4040-84a5-75a18726e58f",
+                "answer": "Muy bien",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": true
+                },
+                "refSerialize": "753c666660847b07a773def447908b55"
+              },
+              {
+                "ref": "ans_8158187d-fa6d-4bec-9146-8ab3d19f063d",
+                "keyword": "ans_ad657bc4-c3b6-4ef3-b9e9-8b74ce7af634",
+                "answer": "Como va a ser tu forma de pago?\n*Efectivo* o *Tarjeta*",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [
+                    {
+                      "ref": "key_867c1ab9-779d-442a-baa8-44a016a5c222",
+                      "keyword": "tarjeta",
+                      "options": {
+                        "sensitive": false,
+                        "regex": false
+                      },
+                      "refSerialize": "bcb4ed9e7d99a49df950bcc5969a01b5"
+                    },
+                    {
+                      "ref": "ans_13c8a39b-b8b1-4a54-809b-d02d0f038527",
+                      "keyword": "key_867c1ab9-779d-442a-baa8-44a016a5c222",
+                      "answer": "En un momento te mando el link de pago.",
+                      "options": {
+                        "media": null,
+                        "buttons": [],
+                        "capture": false,
+                        "child": null,
+                        "delay": 0,
+                        "nested": [],
+                        "keyword": {},
+                        "callback": false
+                      },
+                      "refSerialize": "adae1b26b271c131461e216ca2858247"
+                    }
+                  ],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "008f1f5eb61c82d3f85118f96a37b412"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "2e859863dafc81da0486a2f6838bd03c"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "9ba0781a6a235121d0ca1c318fde3ef1",
+    "from": "5215519186107"
+  },
+  {
+    "ref": "95b08464-761a-4b25-b9ff-c79a2be7d947",
+    "keyword": "9ba0781a6a235121d0ca1c318fde3ef1",
+    "answer": "cursos",
+    "options": {},
+    "from": "5215519186107",
+    "refSerialize": "74a151a1517bc60cd3d530423ee6b70e"
+  },
+  {
+    "ref": "ans_dd1b01c5-8b33-4c9e-936b-c3310fb0dc52",
+    "keyword": "key_3d530b40-35d9-4ec1-b1d7-6d43f927bb5f",
+    "answer": "Te comparto el link con la cartera de cursos disponibles",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "ba7265e69044a9c70e28ec30b6d16ef1",
+    "from": "5215519186107"
+  },
+  {
+    "ref": "ans_b9a3a107-3986-4469-9324-a7fe06f3a0cb",
+    "keyword": "ans_dd1b01c5-8b33-4c9e-936b-c3310fb0dc52",
+    "answer": "🙌 https://wa.me/c/5215537700574",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_6d747a32-eea6-4040-84a5-75a18726e58f",
+          "keyword": [
+            null
+          ],
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "b62baef8f920b5d3308a61b673c8ac83"
+        },
+        {
+          "ref": "ans_ad657bc4-c3b6-4ef3-b9e9-8b74ce7af634",
+          "keyword": "key_6d747a32-eea6-4040-84a5-75a18726e58f",
+          "answer": "Muy bien",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": true
+          },
+          "refSerialize": "753c666660847b07a773def447908b55"
+        },
+        {
+          "ref": "ans_8158187d-fa6d-4bec-9146-8ab3d19f063d",
+          "keyword": "ans_ad657bc4-c3b6-4ef3-b9e9-8b74ce7af634",
+          "answer": "Como va a ser tu forma de pago?\n*Efectivo* o *Tarjeta*",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [
+              {
+                "ref": "key_867c1ab9-779d-442a-baa8-44a016a5c222",
+                "keyword": "tarjeta",
+                "options": {
+                  "sensitive": false,
+                  "regex": false
+                },
+                "refSerialize": "bcb4ed9e7d99a49df950bcc5969a01b5"
+              },
+              {
+                "ref": "ans_13c8a39b-b8b1-4a54-809b-d02d0f038527",
+                "keyword": "key_867c1ab9-779d-442a-baa8-44a016a5c222",
+                "answer": "En un momento te mando el link de pago.",
+                "options": {
+                  "media": null,
+                  "buttons": [],
+                  "capture": false,
+                  "child": null,
+                  "delay": 0,
+                  "nested": [],
+                  "keyword": {},
+                  "callback": false
+                },
+                "refSerialize": "adae1b26b271c131461e216ca2858247"
+              }
+            ],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "008f1f5eb61c82d3f85118f96a37b412"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "2e859863dafc81da0486a2f6838bd03c",
+    "from": "5215519186107"
+  },
+  {
+    "ref": "d7b8c162-3d89-4dcf-943f-7247496f0d6d",
+    "keyword": "2e859863dafc81da0486a2f6838bd03c",
+    "answer": "_event_order__b885e990-04ec-441c-bb3c-9ce2e69055df",
+    "options": {},
+    "from": "5215519186107",
+    "refSerialize": "ac0c9ad603c674115bec37668f4589d3"
+  },
+  {
+    "ref": "ans_ad657bc4-c3b6-4ef3-b9e9-8b74ce7af634",
+    "keyword": "key_6d747a32-eea6-4040-84a5-75a18726e58f",
+    "answer": "Muy bien",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "753c666660847b07a773def447908b55",
+    "from": "5215519186107"
+  },
+  {
+    "ref": "ans_8158187d-fa6d-4bec-9146-8ab3d19f063d",
+    "keyword": "ans_ad657bc4-c3b6-4ef3-b9e9-8b74ce7af634",
+    "answer": "Como va a ser tu forma de pago?\n*Efectivo* o *Tarjeta*",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [
+        {
+          "ref": "key_867c1ab9-779d-442a-baa8-44a016a5c222",
+          "keyword": "tarjeta",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "bcb4ed9e7d99a49df950bcc5969a01b5"
+        },
+        {
+          "ref": "ans_13c8a39b-b8b1-4a54-809b-d02d0f038527",
+          "keyword": "key_867c1ab9-779d-442a-baa8-44a016a5c222",
+          "answer": "En un momento te mando el link de pago.",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "adae1b26b271c131461e216ca2858247"
+        }
+      ],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "008f1f5eb61c82d3f85118f96a37b412",
+    "from": "5215519186107"
+  },
+  {
+    "ref": "f4a19d58-6d0e-4e33-a492-9c625f4ee6f6",
+    "keyword": "008f1f5eb61c82d3f85118f96a37b412",
+    "answer": "Tarjeta",
+    "options": {},
+    "from": "5215519186107",
+    "refSerialize": "62f3d41ea98bc8b6f1be105732c02fd7"
+  },
+  {
+    "ref": "ans_13c8a39b-b8b1-4a54-809b-d02d0f038527",
+    "keyword": "key_867c1ab9-779d-442a-baa8-44a016a5c222",
+    "answer": "En un momento te mando el link de pago.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "adae1b26b271c131461e216ca2858247",
+    "from": "5215519186107"
+  }
+]

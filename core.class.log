@@ -1,0 +1,97 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5215519186107@s.whatsapp.net',
+    fromMe: false,
+    id: '5A79A6EB9BAFDBDA6F',
+    participant: undefined
+  },
+  messageTimestamp: 1691684604,
+  pushName: 'Ernesto',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'hola', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '5215519186107',
+  extras: null
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5215519186107@s.whatsapp.net',
+    fromMe: false,
+    id: '54ED42F0FEFCFC0599',
+    participant: undefined
+  },
+  messageTimestamp: 1691684611,
+  pushName: 'Ernesto',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage { text: 'cursos', contextInfo: [ContextInfo] },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'cursos',
+  from: '5215519186107',
+  extras: null
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5215519186107@s.whatsapp.net',
+    fromMe: false,
+    id: '9961289E080768628613481C3F72A8F6',
+    participant: undefined
+  },
+  messageTimestamp: 1691684621,
+  pushName: 'Ernesto',
+  broadcast: false,
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    orderMessage: OrderMessage {
+      orderId: '1033601148088939',
+      thumbnail: [Uint8Array],
+      itemCount: 3,
+      status: 1,
+      surface: 1,
+      message: '',
+      orderTitle: '2 Ernesto',
+      sellerJid: '5215537700574@s.whatsapp.net',
+      token: 'AR6k3gTjEvi3w7SElUltbOkBhOHDTxLa351c0OonFCRx5w==',
+      totalAmount1000: [Long],
+      totalCurrencyCode: 'MXN',
+      contextInfo: [ContextInfo]
+    }
+  },
+  body: '_event_order__b885e990-04ec-441c-bb3c-9ce2e69055df',
+  from: '5215519186107',
+  extras: null
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5215519186107@s.whatsapp.net',
+    fromMe: false,
+    id: '65C55C58EAF008A594E7CD57C320D203',
+    participant: undefined
+  },
+  messageTimestamp: 1691684627,
+  pushName: 'Ernesto',
+  broadcast: false,
+  message: Message {
+    conversation: 'Tarjeta',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Tarjeta',
+  from: '5215519186107',
+  extras: null
+}
